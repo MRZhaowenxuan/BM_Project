@@ -29,4 +29,5 @@ urlpatterns = [
     path('chart/', views.chart),
     path('searchall/', views.searchall),
     path('searchid/',views.searchid),
+path('searchaaaaaaaaa/',views.searchidaaaaaaaaa),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
